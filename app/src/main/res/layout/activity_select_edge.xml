@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dee8eb"
+    android:orientation="vertical"
+    tools:context="com.example.myapplication4.SelectEdge">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp">
+
+                <com.example.myapplication4.QuadrilateralSelectionImageView
+                    android:id="@+id/polygonView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+        </FrameLayout>
+
+
+        <Button
+            android:id="@+id/action_button_Next"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimary"
+            android:text="Next"
+            android:textAppearance="@style/TextAppearance.Design.Tab" />
+
+</LinearLayout>
+
+
+
